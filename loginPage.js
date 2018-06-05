@@ -2,7 +2,7 @@
 function login(username, password) {
   if(["jess", "alex", "Alex", "Jess"].includes(username)){
     if(["thomas", "hakoopian"].includes(password)){
-      window.location='testpage.html';
+      window.location='testPage.html';
   }else{
     alert("Username Wrong");
   }
