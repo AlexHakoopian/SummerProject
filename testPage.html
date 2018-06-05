@@ -6,10 +6,31 @@
   <a class="active" href="testPage.html">Home</a>
   <a href="alex.html">Alex</a>
   <a href="jess.html">Jess</a>
+  <a
+  <a style="float: right;"<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></a>
 </div>
 </head>
 <body>
 <h1>Jess is an idiot</h1>
 <p>I can confirm I am an idiot - Jess circa 2018</p>
+<div id="id01" class="modal">
+
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="files\media\images\jackHurst.jpg" alt="Avatar" class="avatar">
+    </div>
+
+
+      <form>
+        Username:<br>
+        <input type="text" name="userName" id="uName"><br>
+        Password:<br>
+        <input type="password" name="password" id="pWord">
+        <button type="button" onclick="login(document.getElementById('uName').value, document.getElementById('pWord').value)">
+          Login</button>
+      </form>
+      </form>
+</div>
 </body>
 </html>
