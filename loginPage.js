@@ -1,3 +1,3 @@
-$( "#login" ).click(function() {
+function login() {
  alert( "alex is gay" );
-});
+};
